@@ -1,0 +1,133 @@
+@import "grid.css";
+@import "primary.css";
+@import "header.css";
+@import "font.css";
+@import "footer-member.css";
+@import "footer.css";
+@import "common.css";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner-section {
+    padding: 80px 0 30px;
+    position: relative;
+    background: transparent linear-gradient(180deg, #1034FE 0%, #1034FE 100%) 0% 0% no-repeat padding-box;
+  }
+  .not-aboutus-banner {
+      position: absolute;
+      height: 600px;
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: left;
+      overflow: hidden;
+  }
+  .inner-banner-background.feature-bg-image {
+    opacity: 0.1;
+  }
+  .banner-content-box {
+    display: grid;
+    height: 100%;
+    align-items: center;
+    min-height: 400px;
+  }
+  .banner-content-box h1 {
+    font-size:  50px;
+    letter-spacing: 0px;
+    color: #fff;
+    opacity: 1;
+    line-height: 59px;
+    margin-bottom: 15px;
+    font-family: "sf_pro_displaybold";
+  }
+  .banner-content-box p {
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "sf_pro_displayregular";
+  }
+  .banner-grid-image {
+    display: grid;
+    height: 85%;
+    align-items: center;
+    margin-left: 130px;
+  }
+
+  input#search {
+    background-image: url(Images/noun_Search_861408.svg);
+    background-repeat: no-repeat;
+    text-indent:400px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-position: 6px 6px; 
+    
+}
+
+  .mar-t-8 {
+    padding:12rem 0 10rem !important
+  }
+  .accordion .accordion-head {
+    font-size:3rem;padding-bottom:10px;border-bottom:1px solid #eee
+  }
+  .accordion-item {
+    transition:300ms ease-out;
+    margin-bottom:20px;
+    border:1px solid #f5f5f5;
+  }
+   .feature-values-container {
+    margin-bottom:50px;
+  }
+   .feature-accordion-box {
+    display:grid;
+    height:100%;
+    align-items:center;
+  }
+    .accordion-title {
+    position:relative;display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 20px;
+    cursor:pointer;
+    background-color:#f8f8f8;
+  }
+    .card-description {
+    overflow:hidden;
+    padding-left:20px;
+    border-left:4px solid #1034fe;
+    }
+    .down-arrow {
+    font-size:28px;
+    color:#a2a2a2;
+    transition:500ms all ease-out
+    }
+    .accordion-title h3 {
+        font-size:20px;
+        font-family:"sf_pro_displaylight";
+        margin:0;
+        margin-right:20px;
+    }
+    .accordion-title:hover h3 {
+         color:#1034fe;
+    }
+        .accordion-title:hover svg path {
+            fill:#1034fe;
+        }
+        .accordion-item .accordion-panel {
+            overflow:hidden;
+            display:none;padding:2rem;
+        }
+        .accordion-item .down-arrow {
+            transform:rotate(90deg);
+            transition:1s ease;
+        }
+        .accordion-item.accordion-expanded .down-arrow
+        {
+            transform:rotate(270deg);transition:1s ease}@media screen and (max-width:640px)
+            {
+                .accordion-title h3{font-size:18px}
+                .accordion-title{padding:15px 0}
+            }
